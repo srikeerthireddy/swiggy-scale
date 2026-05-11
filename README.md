@@ -7,7 +7,6 @@ This repository models what happens when a Swiggy-like backend faces a World Cup
 India vs Pakistan World Cup Final. 8 PM IST. A 50% off promo is sent to 180 million users while the backend is still a single Node.js process talking to one PostgreSQL database. The question is not whether it gets slow; the question is which component fails first and what it takes to make the next version survive.
 
 ## Document Summary
-
 | Document | What it contains |
 |---|---|
 | [FAILURE-CASCADE.md](docs/FAILURE-CASCADE.md) | Traffic math, component capacity limits, failure triggers, and the incident timeline. |
